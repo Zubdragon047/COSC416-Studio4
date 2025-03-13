@@ -9,6 +9,7 @@ public class InputManager : MonoBehaviour
     public UnityEvent OnSettingsMenu = new();
     void Update()
     {
+        if (GameManager.Instance.IsSettingsMenuActive) return;
         Vector2 input = Vector2.zero;
         if (Input.GetKey(KeyCode.W))
         {
