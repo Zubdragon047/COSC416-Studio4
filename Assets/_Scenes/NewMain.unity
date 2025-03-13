@@ -2326,12 +2326,12 @@ RectTransform:
   - {fileID: 1944329331}
   - {fileID: 332716078}
   - {fileID: 567271373}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1263321992}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1060, y: 540}
-  m_SizeDelta: {x: 450, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &738892927
 MonoBehaviour:
@@ -3306,6 +3306,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2121034200}
+  - {fileID: 738892926}
   m_Father: {fileID: 2100703262}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5031,7 +5032,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 65.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5159,4 +5160,3 @@ SceneRoots:
   - {fileID: 1165002141}
   - {fileID: 707310994}
   - {fileID: 377224084}
-  - {fileID: 738892926}
